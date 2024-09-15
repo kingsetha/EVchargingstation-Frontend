@@ -1,0 +1,20 @@
+DateTimePicker.css
+.date-time-picker-container {
+  margin-bottom: 1rem; /* Tailwind's mb-4 */
+}
+
+.date-time-picker-label {
+  display: block;
+  font-size: 1.125rem; /* Tailwind's text-lg */
+  font-weight: 500; /* Tailwind's font-medium */
+  color: #4b5563; /* Tailwind's text-gray-700 */
+  margin-bottom: 0.5rem; /* Tailwind's mb-2 */
+}
+
+.date-time-picker {
+  width: 100%;
+  border: 1px solid #d1d5db; /* Tailwind's border-gray-300 */
+  border-radius: 0.5rem; /* Tailwind's rounded-lg */
+  padding: 0.75rem; /* Tailwind's p-3 */
+  font-size: 1rem; /* Tailwind's text-lg */
+}

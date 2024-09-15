@@ -1,0 +1,25 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #004d40; /* Teal color */
+    padding: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50; /* Ensure z-index is high */
+  }
+  
+  .main-content {
+    padding-top: 64px; /* Adjust this value based on the height of your navbar */
+  }
+  
+  .map-container {
+    height: 400px; /* Adjust the height as needed */
+    width: 100%;
+  }
+  
